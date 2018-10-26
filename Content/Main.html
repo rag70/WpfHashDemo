@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Roberto Alonso Gómez">
+    <title>Hash Demo</title>
+    <style type="text/css">
+        @page {
+            margin: 0.79in
+        }
+
+        p {
+            margin-bottom: 0.1in;
+            line-height: 115%
+        }
+
+        h2.western {
+            font-family: "Liberation Sans", sans-serif;
+            font-size: 16pt
+        }
+
+        h2.cjk {
+            font-family: "Microsoft YaHei";
+            font-size: 16pt
+        }
+
+        h2.ctl {
+            font-family: "Mangal";
+            font-size: 16pt
+        }
+
+        .solid {
+            border: 1px solid red;
+            padding: 10px;
+            border-radius: 12px;
+        }
+   
+    </style>
+
+    <script>
+        function AddInfo(msg) {
+            var er = document.getElementById("Info");
+            er.innerHTML = msg;
+        }
+
+        function AddCollision(msg) {
+            var er = document.getElementById("Collision");
+            er.innerHTML = msg;
+        }
+
+    </script>
+</head>
+<body>
+    <div style="margin:20px auto;">
+        <h2 class="western">Hash Demo Evaluator</h2>
+
+        <p>Comparing some hash function, using my own file data or your</p>
+        <h2 class="western">how work</h2>
+
+        <p>Select a folder where you have a lot of files, then this program will go for each folder and file checking with each hash function for collision and report this, for stop press select againg</p>
+
+        <div id="Info" class="solid">
+
+        </div>
+
+        <div id="Collision" class="solid">
+
+        </div>
+
+
+        <h2 class="western">Helper document over Internet</h2>
+        <p style="margin-bottom: 0in; line-height: 100%">
+        I been using the Sdbm hash function from 1991 almost on my initial programming, I remember get this from some Library that was on the University &ldquo;Bank of Software&rdquo; UCLV, Cuba and from that moment have been part of my code.
+        </p>
+        <ul>
+            <li />
+            <p style="margin-bottom: 0in; line-height: 100%">
+                <a href="http://www.cse.yorku.ca/~oz/hash.html"> Hash Functions</a>
+            </p>
+            <li />
+            <p style="margin-bottom: 0in; line-height: 100%">
+                <a href="https://cp-algorithms.com/string/string-hashing.html">
+                    polynomial rolling hash, Just I found and include
+                </a>
+            </p>
+        </ul>
+
+        <p style="margin-bottom: 0in; line-height: 100%">
+            <a href="mailto:bob@lynza.com?subject=About%20Hashes%20and%20beer">
+                Copyright (C) 2018 Roberto Alonso G&oacute;mez
+            </a>
+        </p>
+        <p style="margin-bottom: 0in; line-height: 100%">
+            <a href="http://lynza.com/"> A lynza.com, Tooling for Coder</a>
+        </p>
+    </div>
+</body>
+</html>
+
