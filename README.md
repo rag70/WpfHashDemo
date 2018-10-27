@@ -20,6 +20,6 @@ I been using the __Sdbm__ hash function from 1991 almost on my initial programmi
 
 [Download release](https://github.com/rag70/WpfHashDemo/blob/master/bin/Release/WpfHashDemo.exe)
 
-[Copyright (C) 2018 Roberto Alonso Gómez]()
+[Copyright (C) 2018 Roberto Alonso Gómez](http://lynza.com)
 
-[lynza.com: A tooling for Coder]()
+[lynza.com: A tooling for Coder](http://lynza.com)
